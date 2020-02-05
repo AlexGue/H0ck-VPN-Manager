@@ -1,0 +1,109 @@
+openapi: 3.0.0
+info:
+  contact:
+    email: aleguedia@gmail.com
+    name: Alejandro Guerrero
+    url: https://www.alexgd.es/
+  description: VPN Manager for H0ck project.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: H0ck VPN Manager
+  version: 1.0.0
+externalDocs:
+  url: https://mermade.github.io/shins/asyncapi.html
+servers:
+- description: Production
+  url: https://vpnmanager.h0ck.alexgd.es
+paths:
+  /vpn/getFile/{containerName}:
+    get:
+      description: Get the VPN file with less ping and not being used
+      operationId: getBestVPNFile
+      parameters:
+      - description: Name of the container that will use the VPN file
+        explode: false
+        in: path
+        name: containerName
+        required: true
+        schema:
+          type: string
+        style: simple
+      responses:
+        "200":
+          content:
+            multipart/mixed:
+              schema: {}
+          description: successful operation
+        "400":
+          description: Invalid containerName supplied
+        "404":
+          description: VPN not found
+      security: []
+      summary: Get VPN File
+      tags:
+      - vpn
+      x-openapi-router-controller: VpnController
+      x-openapi-router-service: VpnService
+  /vpn/getContainer:
+    get:
+      description: Return the container with less load in it.
+      operationId: getFastestContainer
+      parameters: []
+      responses:
+        "200":
+          content:
+            application/json:
+              schema: {}
+          description: Container name
+      summary: Get the fastest container
+      tags:
+      - vpn
+      x-openapi-router-controller: VpnController
+      x-openapi-router-service: VpnService
+  /vpn/getContainers:
+    get:
+      description: Return a list of current containers
+      operationId: vpnGetContainersGET
+      parameters: []
+      responses:
+        "200":
+          content:
+            application/json:
+              schema: {}
+          description: Container list
+      summary: Get a list of the containers running
+      tags:
+      - vpn
+      x-openapi-router-controller: VpnController
+      x-openapi-router-service: VpnService
+  /vpn/ping/{containerName}:
+    get:
+      description: Update a list that will prevent a container to be considered as
+        down.
+      operationId: pingReceived
+      parameters:
+      - description: Container name to update
+        explode: false
+        in: path
+        name: containerName
+        required: true
+        schema:
+          type: string
+        style: simple
+      responses:
+        default:
+          description: Default response
+      summary: Update the status of a container
+      tags:
+      - vpn
+      x-openapi-router-controller: VpnController
+      x-openapi-router-service: VpnService
+      summary: Updates the status of a container
+components:
+  callbacks: {}
+  links: {}
+  requestBodies: {}
+  schemas: {}
+  securitySchemes: {}
