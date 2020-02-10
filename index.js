@@ -1,6 +1,7 @@
 const config = require('./config');
 const logger = require('./logger');
 const ExpressServer = require('./expressServer');
+const services = require('./services')
 // const App = require('./app');
 
 // const app = new App(config);
@@ -19,6 +20,8 @@ const launchServer = async () => {
     this.expressServer = new ExpressServer(config.URL_PORT, config.OPENAPI_YAML);
     await this.expressServer.launch();
     logger.info('Express server running');
+    setInterval(services.VpnService.clearContainers, 5000)
+    
   } catch (error) {
     logger.error(error);
     await this.close();

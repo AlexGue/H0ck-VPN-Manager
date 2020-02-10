@@ -5,23 +5,22 @@ const dns = require('dns')
 const tcpie = require('tcpie');
 
 
-module.exports.getMostValidServer = getMostValidServer;
+module.exports.getAllServersAvailable = getAllServersAvailable;
 
 
 async function pingServer(ip) {
     var ms = Date.now();
     return new Promise(resolve => {
         ping.sys.probe(ip, response => {
-            resolve({ "alive": response, "timestamp": Date.now() })
-        }, { timeout: 2000 });
+            resolve({"ip":ip, "alive": response, "timestamp": Date.now() })
+        }, { timeout: 2 });
     }).then(pingResult => {
         pingResult.timestamp = pingResult.timestamp - ms;
         return pingResult;
     });
 }
 
-
-async function getMostValidServer(folder) {
+async function getAllServersAvailable(folder){
     var servers = [];
 
     var promisePingList = [];
@@ -33,7 +32,7 @@ async function getMostValidServer(folder) {
                 if (line.startsWith('remote ')) {
                     ip = line.split(' ')[1];
                     var pingResult = await pingServer(ip);
-                    console.log(pingResult);
+                    pingResult["file"] = file;
                     servers.push(pingResult);
                     resolve();
                     return false;
@@ -44,7 +43,9 @@ async function getMostValidServer(folder) {
             })
         }))
     });
-    await Promise.all(promisePingList).then();
+    await Promise.all(promisePingList).then(x=>{servers.sort( function comp(a1,a2 ){
+        return a1.timestamp > a2.timestamp ? 1 : -1;
+     })});
     return servers;
-
 }
+

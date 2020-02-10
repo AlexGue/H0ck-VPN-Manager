@@ -9,11 +9,16 @@ class Controller {
      */
     response.status(payload.code || 200);
     const responsePayload = payload.payload !== undefined ? payload.payload : payload;
+    if (payload.type == "file"){
+      response.sendFile(payload.payload)
+    }
+    else{
     if (responsePayload instanceof Object) {
       response.json(responsePayload);
     } else {
       response.end(responsePayload);
     }
+  }
   }
 
   static sendError(response, error) {

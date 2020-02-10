@@ -1,10 +1,14 @@
 class Service {
-  static rejectResponse(error, code = 500) {
-    return { error, code };
+  static rejectResponse(error, code = 500, type="json") {
+    return { error, code, type };
   }
 
-  static successResponse(payload, code = 200) {
-    return { payload, code };
+  static successResponse(payload, code = 200, type="json") {
+    return { payload, code, type };
+  }
+
+  static successResponseFile(payload, code = 200, type="file"){
+    return { payload, code,type };
   }
 }
 

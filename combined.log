@@ -1,234 +1,66 @@
-{"level":"error","service":"user-service"}
-{"level":"error","service":"user-service"}
 {"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
 {"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
@@ -236,12 +68,9 @@
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
 {"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
 {"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
 {"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Checking if files are expected in schema","level":"info","service":"user-service"}
-{"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Express server running","level":"info","service":"user-service"}
 {"message":"Checking if files are expected in schema","level":"info","service":"user-service"}

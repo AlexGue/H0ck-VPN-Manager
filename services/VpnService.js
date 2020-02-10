@@ -4,6 +4,14 @@ const vpnfilesFolder = './vpn-files/';
 const fs = require('fs');
 const vpnUtils = require('../utils/vpnUtils')
 
+var containerTimeoutMs = 20000;
+var currentContainersUp = [];
+
+
+var path = require('path');
+var appDir = path.dirname(require.main.filename);
+
+
 class VpnService {
 
   /**
@@ -12,15 +20,28 @@ class VpnService {
    *
    * containerName String Name of the container that will use the VPN file
    * returns Object
+   * 
    **/
   static getBestVPNFile({ containerName }) {
     return new Promise(
       async (resolve) => {
         try {
 
-         var response = await vpnUtils.getMostValidServer(vpnfilesFolder);
-
-          resolve(Service.successResponse(response));
+         var servers = await vpnUtils.getAllServersAvailable(vpnfilesFolder);
+         var assignedServer = servers.find(sv=> {
+            //Get the first server not being used
+            return (currentContainersUp.find(current=> {return current.ip == sv.ip;}) == null)
+          })
+          if (assignedServer){
+            assignedServer.lastPing = Date.now();
+            assignedServer.containerName = containerName;
+            currentContainersUp.push(assignedServer);
+            resolve(Service.successResponseFile(appDir +  vpnfilesFolder.substr(1) + assignedServer.file));
+          }
+          else{
+            resolve(Service.rejectResponse("No valid server found"));
+          }
+          
         } catch (e) {
           resolve(Service.rejectResponse(
             e.message || 'Invalid input',
@@ -63,7 +84,11 @@ class VpnService {
     return new Promise(
       async (resolve) => {
         try {
-          resolve(Service.successResponse(''));
+          var updatedContainer = currentContainersUp.find(container => {
+            return container.containerName == containerName;
+          })
+          updatedContainer.lastPing = Date.now();
+          resolve(Service.successResponse(updatedContainer));
         } catch (e) {
           resolve(Service.rejectResponse(
             e.message || 'Invalid input',
@@ -84,7 +109,7 @@ class VpnService {
     return new Promise(
       async (resolve) => {
         try {
-          resolve(Service.successResponse(''));
+          resolve(Service.successResponse(currentContainersUp));
         } catch (e) {
           resolve(Service.rejectResponse(
             e.message || 'Invalid input',
@@ -93,6 +118,13 @@ class VpnService {
         }
       },
     );
+  }
+
+  static clearContainers(){
+    currentContainersUp = currentContainersUp.filter(container => {
+      return Date.now() < (container.lastPing + containerTimeoutMs)
+    })
+
   }
 
 }
